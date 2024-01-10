@@ -1,0 +1,13 @@
+class Test {
+    public static void main(String[] args) {
+        try {
+            final int a,b,c;
+            a=0;
+            b=30;
+            c=b/a;
+        }
+        catch(Exception e) {
+            System.out.println(e);
+        }
+    }
+}
