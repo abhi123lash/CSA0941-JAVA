@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class sumofn {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter N : ");
+        int N = scanner.nextInt();
+        int count = 0;
+        for (int i = 1; i <= N; i++) {
+            count += i;
+        }
+        System.out.println("Sum of first " + N + " natural numbers: " + count);
+        scanner.close();
+    }
+}
